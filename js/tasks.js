@@ -14,7 +14,7 @@ while(input !== null) {
   if(input === '') {
   alert('何も入力されていません！');
   input = prompt('もう一度タスクを入力してください');
-}else if(input !== '') {
+} else if(input !== '') {
   tasks.push(input);
   console.log(title);
   tasks.forEach(function(task) {
